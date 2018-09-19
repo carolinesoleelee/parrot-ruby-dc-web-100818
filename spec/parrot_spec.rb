@@ -13,8 +13,8 @@ describe '#parrot' do
   end
 
   def parrot(says = "Squawk!")
-    puts "Pretty bird!"
-    "Pretty bird!"
+    puts "#{says}"
+    "#{{says}}"
   end
 
   it 'should output the given phrase when called with an argument' do
