@@ -13,7 +13,7 @@ describe '#parrot' do
   end
 
   def parrot(says = "Squawk!")
-    puts "Squawk!"
+    puts "Pretty Bird!"
     "Squawk!"
   end
 
