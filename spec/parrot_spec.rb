@@ -14,7 +14,7 @@ describe '#parrot' do
 
   def parrot(says = "Squawk!")
     puts "Pretty bird!"
-    "Squawk!"
+    "Pretty bird!"
   end
 
   it 'should output the given phrase when called with an argument' do
